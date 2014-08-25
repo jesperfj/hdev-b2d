@@ -44,4 +44,4 @@ $ VBoxManage sharedfolder add boot2docker-vm --name dev-home --hostpath /path-of
 
 A dev-home is a top-level home folder for all your development projects where each project will be the home folder of the docker user. This allows you to hop into a docker container and have the home folder of the user live on your host system (and therefore be persistent across docker runs).
 
-See [the hdev project](https://github.com/jesperfj/hdev) for an example Docker container that uses this configuration.
+See [the hdev project](https://github.com/jesperfj/hdev-base) for an example Docker container that uses this configuration.
