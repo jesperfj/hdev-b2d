@@ -2,7 +2,7 @@
 
 This project allows you to build a custom boot2docker.iso that will auto-mount a virtual box shared folder called `dev-home` on `/dev-home` when boot2docker starts up (so you don't have to run mount manually).
 
-I take zero credit for this work. Read Matthias Kadenbach's excellent post to understand why this is painful and how this solution came about.
+I take zero credit for this work. Read [Matthias Kadenbach's excellent post](https://medium.com/boot2docker-lightweight-linux-for-docker/boot2docker-together-with-virtualbox-guest-additions-da1e3ab2465c) to understand why this is painful and how this solution came about.
 
 I customized Matthias' image because I did not want to mount all of `/Users` and because I wanted to experiment with running as non-root in the docker container. But that's literally all the diff.
 
