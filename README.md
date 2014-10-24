@@ -1,3 +1,7 @@
+# OBSOLETE!
+
+All this crap is no longer needed with Docker 1.3 and latest boot2docker.
+
 # Auto-mount host folder in boot2docker
 
 This project allows you to build a custom boot2docker.iso that will auto-mount a virtual box shared folder called `dev-home` on `/dev-home` when boot2docker starts up (so you don't have to run mount manually).
